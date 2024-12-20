@@ -96,12 +96,12 @@ Authorization:
 
 ### Logout
 
+Authorization:
+- Bearer Token: auth token
+
 ```http
   GET /api/v1/logout
 ```
-
-Authorization:
-- Bearer Token: auth token
 
 
 ## Tech Stack
