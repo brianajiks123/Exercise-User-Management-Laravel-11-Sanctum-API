@@ -25,31 +25,31 @@ REST API for basic user management using Sanctum API. For now, this project is s
 Clone the project
 
 ```bash
-  git clone https://github.com/brianajiks123/Exercise-User-Management-Laravel-11-Sanctum-API.git
+git clone https://github.com/brianajiks123/Exercise-User-Management-Laravel-11-Sanctum-API.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Exercise-User-Management-Laravel-11-Sanctum-API
+cd Exercise-User-Management-Laravel-11-Sanctum-API
 ```
 
 Install Dependencies (Laravel)
 
 ```bash
-  composer install
+composer install
 ```
 
 Migrate Database (make sure already setup your environment in the .env file)
 
 ```bash
-  php artisan migrate
+php artisan migrate
 ```
 
 Running Development
 
 ```bash
-  php artisan serve
+php artisan serve
 ```
 
 
@@ -70,7 +70,7 @@ Headers:
 ### Register
 
 ```http
-  POST /api/v1/register
+POST /api/v1/register
 ```
 
 | Body                 | Type     | Description                       |
@@ -83,7 +83,7 @@ Headers:
 ### Login
 
 ```http
-  POST /api/v1/login
+POST /api/v1/login
 ```
 
 | Body                 | Type     | Description                       |
@@ -97,7 +97,7 @@ Authorization:
 - Bearer Token: auth token
 
 ```http
-  GET /api/v1/user
+GET /api/v1/user
 ```
 
 ### Logout
@@ -106,7 +106,7 @@ Authorization:
 - Bearer Token: auth token
 
 ```http
-  GET /api/v1/logout
+GET /api/v1/logout
 ```
 
 
