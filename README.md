@@ -16,7 +16,6 @@ REST API for basic user management using Sanctum API. For now, this project is s
 
 ## Screenshots
 
-![App Screenshot](./Documentation/Unauthenticated.png)
 ![App Screenshot](./Documentation/User%20Profile.png)
 
 
